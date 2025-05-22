@@ -1,0 +1,57 @@
+{
+  "name": "BinderCreationTaxCaddyLibrary",
+  "projectId": "cf7cc9e4-287e-49f8-8625-193f2bef56a0",
+  "description": "BinderCreationTaxCaddyLibrary - This library is used to create the binder from the Tax Caddy. ",
+  "main": "NewActivity.xaml",
+  "dependencies": {
+    "PingID": "1.0.9",
+    "SanityReport_GenerateOutput": "1.0.3",
+    "SanityReport_ReadTemplate": "1.0.5",
+    "SanityReport_TCFiltering": "1.0.1",
+    "UiPath.Excel.Activities": "2.24.4",
+    "UiPath.System.Activities": "24.10.7",
+    "UiPath.Testing.Activities": "24.10.3",
+    "UiPath.UIAutomation.Activities": "23.10.13"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "24.10.1.0",
+  "projectVersion": "1.0.10",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Library",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "saveToCloud": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}

@@ -1,0 +1,314 @@
+{
+  "Workflows": [
+    {
+      "Path": null,
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [],
+      "ArgumentsSectionElementsOrder": null,
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "BinderCreationTaxCaddyLibrary_MainXmal.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "in_strSanityTemplatePath&Sequence_1",
+        "in_strSPClientID&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strExceptionMessage",
+        "in_strExceptionScreenshot",
+        "io_strBinderID",
+        "inOut_dtTestSummaryReport",
+        "in_Config",
+        "in_strClientID",
+        "io_TaxYear",
+        "in_TransactionItem"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TaxCaddyLibrary_xmal/BinderCreation_TaxCaddyLibrary.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "in_strSPClientID&Sequence_1",
+        "in_strBinderID&Sequence_1",
+        "in_clientCreationData&Sequence_1",
+        "MemberName&Sequence_1",
+        "dt_inTaxCaddy&Sequence_1",
+        "dt_FillI_inTaxCaddy&Sequence_1"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strSanityTemplatePath",
+        "in_strSPClinetID",
+        "io_strBinderID",
+        "in_strExceptionScreenshot",
+        "inOut_dtTestSummaryReport",
+        "in_Config",
+        "in_strClientID",
+        "io_TaxYear",
+        "in_TransactionItem",
+        "in_strExceptionMessage"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "FileRoom_VerificationTaxCaddy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "inOut_dtTestSummaryReport&Sequence_44",
+        "in_strExceptionScreenshot&Sequence_44",
+        "in_strExceptionMessage&Sequence_44",
+        "strBinderStatus&Sequence_45",
+        "str_BinderID&Sequence_45",
+        "str_BinderIDSplit&Sequence_45",
+        "str_BinderStatusFileroom&Sequence_45",
+        "str_MemberStatusFileroom&Sequence_45",
+        "SearchClientID&Sequence_56",
+        "str_SerachedBinderID&Sequence_56",
+        "SearchClientID&Sequence_50",
+        "str_SerachedBinderID&Sequence_50",
+        "SearchClientID&Sequence_47",
+        "str_SerachedBinderID&Sequence_47",
+        "SearchClientID&Sequence_53",
+        "str_SerachedBinderID&Sequence_53",
+        "SearchClientID&Sequence_59",
+        "str_SerachedBinderID&Sequence_59",
+        "SearchClientID&Sequence_62",
+        "str_SerachedBinderID&Sequence_62",
+        "ConsentStatus&Sequence_62",
+        "SearchClientID&Sequence_65",
+        "str_SerachedBinderID&Sequence_65",
+        "ConsentStatus&Sequence_65"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "io_TaxYear",
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "ClientProfileCreation_TaxCaddy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "ClientFirstName&Sequence_3",
+        "SpouseFirstName&Sequence_3",
+        "ClientLastName&Sequence_3",
+        "SpouseLastName&Sequence_3",
+        "OfficeLocation&Sequence_3",
+        "TaxSoftware&Sequence_3",
+        "TaxClientID&Sequence_3",
+        "Owner&Sequence_3",
+        "ClientType&Sequence_3",
+        "ProjectID&Sequence_3",
+        "MemberName&Sequence_3",
+        "DemoDocPath&Sequence_3",
+        "ServiceType&Sequence_3",
+        "TaxSoftwareFilePath&Sequence_3",
+        "SPClientID&Sequence_3",
+        "DocumentCount&Sequence_3",
+        "SearchClientID&Sequence_3",
+        "SearchClientID&Sequence_46",
+        "SearchClientID&Sequence_66",
+        "SearchClientID&Sequence_82",
+        "str_SerachedBinderID&Sequence_82",
+        "ConsentStatus&Sequence_82",
+        "SearchClientID&Sequence_85",
+        "str_SerachedBinderID&Sequence_85",
+        "ConsentStatus&Sequence_85",
+        "strBinderStatus&Sequence_8",
+        "str_CreateBinderBtn&Sequence_9",
+        "SearchClientID&Sequence_76",
+        "strSelectServiceType&Sequence_58",
+        "SearchClientID&Sequence_69",
+        "DocumentCount&Sequence_69",
+        "strUploadDocument&Sequence_47",
+        "SearchClientID&Sequence_79",
+        "TR_EmailID&Sequence_48",
+        "TR_Password&Sequence_48"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_clientCreationData",
+        "in_Config",
+        "inOut_dtTestSummaryReport",
+        "in_strExceptionScreenshot",
+        "io_TaxYear",
+        "in_TransactionItem",
+        "in_strExceptionMessage"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "Launch_Login_FileRoom.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strTREmailID&Sequence_62",
+        "strTRUsername&Sequence_62",
+        "ssTRPassword&Sequence_62"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TaxCaddyLibrary_xmal/FileRoom_VerificationTaxCaddy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "in_strSubComponent&Sequence_44",
+        "str_BinderIDStatusFileroom&Sequence_45",
+        "str_BinderIDSplit&Sequence_44",
+        "in_strExceptionScreenshot&Sequence_44",
+        "in_strExceptionMessage&Sequence_44",
+        "strBinderStatus&Sequence_45",
+        "str_BinderStatusFileroom&Sequence_45",
+        "str_MemberStatusFileroom&Sequence_45",
+        "uieBinderID&Sequence_45",
+        "SearchClientID&Sequence_56",
+        "str_SerachedBinderID&Sequence_56",
+        "SearchClientID&Sequence_50",
+        "str_SerachedBinderID&Sequence_50",
+        "SearchClientID&Sequence_68",
+        "str_SerachedBinderID&Sequence_68",
+        "ConsentStatus&Sequence_68",
+        "SearchClientID&Sequence_47",
+        "str_SerachedBinderID&Sequence_47",
+        "SearchClientID&Sequence_53",
+        "str_SerachedBinderID&Sequence_53",
+        "SearchClientID&Sequence_59",
+        "str_SerachedBinderID&Sequence_59",
+        "SearchClientID&Sequence_62",
+        "str_SerachedBinderID&Sequence_62",
+        "ConsentStatus&Sequence_62",
+        "SearchClientID&Sequence_65",
+        "str_SerachedBinderID&Sequence_65",
+        "ConsentStatus&Sequence_65"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "inOut_dtTestSummaryReport",
+        "in_strBinderID",
+        "in_TransactionItem",
+        "io_strBinderID",
+        "io_TaxYear",
+        "in_Config",
+        "MemberName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TaxCaddyLibrary_xmal/ClientProfileCreation_TaxCaddy.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "in_strBinderID&Sequence_101",
+        "WaitTime&Sequence_103",
+        "ClientFirstName&Sequence_3",
+        "SpouseFirstName&Sequence_3",
+        "ClientLastName&Sequence_3",
+        "SpouseLastName&Sequence_3",
+        "OfficeLocation&Sequence_3",
+        "TaxSoftware&Sequence_3",
+        "TaxClientID&Sequence_3",
+        "Owner&Sequence_3",
+        "ClientType&Sequence_3",
+        "ProjectID&Sequence_3",
+        "DemoDocPath&Sequence_3",
+        "ServiceType&Sequence_3",
+        "TaxSoftwareFilePath&Sequence_3",
+        "DocumentCount&Sequence_3",
+        "SearchClientID&Sequence_3",
+        "in_strSubComponent&Sequence_3",
+        "SearchClientID&Sequence_46",
+        "SearchClientID&Sequence_66",
+        "SearchClientID&Sequence_82",
+        "str_SerachedBinderID&Sequence_82",
+        "ConsentStatus&Sequence_82",
+        "SearchClientID&Sequence_85",
+        "str_SerachedBinderID&Sequence_85",
+        "ConsentStatus&Sequence_85",
+        "strBinderStatus&Sequence_8",
+        "str_CreateBinderBtn&Sequence_9",
+        "SearchClientID&Sequence_76",
+        "strSelectServiceType&Sequence_58",
+        "SearchClientID&Sequence_69",
+        "DocumentCount&Sequence_69",
+        "strUploadDocument&Sequence_47",
+        "SPClientIDCheck&Sequence_47",
+        "str_SubmitBtn&Sequence_47",
+        "SearchClientID&Sequence_79",
+        "TR_EmailID&Sequence_48",
+        "TR_Password&Sequence_48",
+        "SearchClientID&Sequence_90",
+        "str_SerachedBinderID&Sequence_90",
+        "ConsentStatus&Sequence_90",
+        "str_SerachedBinderID&Sequence_95",
+        "ConsentStatus&Sequence_95"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_strBinderID",
+        "SPClientID",
+        "io_TaxYear",
+        "in_clientCreationData",
+        "in_Config",
+        "inOut_dtTestSummaryReport",
+        "in_strExceptionScreenshot",
+        "in_TransactionItem",
+        "in_strExceptionMessage",
+        "MemberName"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TaxCaddyLibrary_xmal/InitAllSettings.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "dt_SettingsAndConstants&Sequence_5",
+        "dt_Assets&Sequence_6",
+        "AssetValue&Sequence_11"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_ConfigFile",
+        "in_ConfigSheets",
+        "out_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    },
+    {
+      "Path": "TaxCaddyLibrary_xmal/Launch_Login_FileRoom.xaml",
+      "SortBy": 0,
+      "VariablesSectionElementsOrder": [
+        "strTREmailID&Sequence_62",
+        "strTRUsername&Sequence_62",
+        "ssTRPassword&Sequence_62"
+      ],
+      "ArgumentsSectionElementsOrder": [
+        "in_Config"
+      ],
+      "ConstantsSectionElementsOrder": null,
+      "AddedNamespaces": null
+    }
+  ]
+}

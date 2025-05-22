@@ -16,7 +16,7 @@
   <this:GetBinderStatus.in_drRowToUpdate>
     <InArgument x:TypeArguments="sd:DataRow" />
   </this:GetBinderStatus.in_drRowToUpdate>
-  <sap:VirtualizedContainerService.HintSize>1020.8,2256</sap:VirtualizedContainerService.HintSize>
+  <sap:VirtualizedContainerService.HintSize>1408.8,2296</sap:VirtualizedContainerService.HintSize>
   <sap2010:WorkflowViewState.IdRef>ActivityBuilder_1</sap2010:WorkflowViewState.IdRef>
   <TextExpression.NamespacesForImplementation>
     <sco:Collection x:TypeArguments="x:String">
@@ -146,7 +146,7 @@
       <x:Boolean x:Key="ShouldExpandAll">True</x:Boolean>
     </scg:Dictionary>
   </sap:WorkflowViewStateService.ViewState>
-  <Sequence DisplayName="Get Binder Status" sap:VirtualizedContainerService.HintSize="704,2191.2" sap2010:WorkflowViewState.IdRef="Sequence_36">
+  <Sequence DisplayName="Get Binder Status" sap:VirtualizedContainerService.HintSize="704,2231.2" sap2010:WorkflowViewState.IdRef="Sequence_36">
     <Sequence.Variables>
       <Variable x:TypeArguments="sd:DataTable" Name="dtExtractJobDetails" />
       <Variable x:TypeArguments="x:String" Name="strExceptionScreenshot" />
@@ -159,15 +159,15 @@
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <If Condition="[Not in_TransactionItem.Progress.Contains(&quot;GetBinderStatus Success&quot;)]" DisplayName="If - GetBinderStatus is successfully run?" sap:VirtualizedContainerService.HintSize="641.6,2102.4" sap2010:WorkflowViewState.IdRef="If_2">
+    <If Condition="[Not in_TransactionItem.Progress.Contains(&quot;GetBinderStatus Success&quot;)]" DisplayName="If - GetBinderStatus is successfully run?" sap:VirtualizedContainerService.HintSize="641.6,2142.4" sap2010:WorkflowViewState.IdRef="If_2">
       <If.Then>
-        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="608,1686.4" sap2010:WorkflowViewState.IdRef="Sequence_39">
+        <Sequence DisplayName="Then" sap:VirtualizedContainerService.HintSize="608,1726.4" sap2010:WorkflowViewState.IdRef="Sequence_39">
           <sap:WorkflowViewStateService.ViewState>
             <scg:Dictionary x:TypeArguments="x:String, x:Object">
               <x:Boolean x:Key="IsExpanded">True</x:Boolean>
             </scg:Dictionary>
           </sap:WorkflowViewStateService.ViewState>
-          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Home Page - Job Details" sap:VirtualizedContainerService.HintSize="545.6,1597.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="577afa5e-5510-4b93-9eca-e7d74a1a3536" Version="V2" WindowResize="Maximize">
+          <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Always" DisplayName="Use Browser Chrome: Home Page - Job Details" sap:VirtualizedContainerService.HintSize="545.6,1637.6" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" InteractionMode="DebuggerApi" OpenMode="Always" ScopeGuid="577afa5e-5510-4b93-9eca-e7d74a1a3536" Version="V2" WindowResize="Maximize">
             <uix:NApplicationCard.Body>
               <ActivityAction x:TypeArguments="x:Object">
                 <ActivityAction.Argument>
@@ -196,7 +196,7 @@
                       <OutArgument x:TypeArguments="x:Int32">[intBinderStatusIteration]</OutArgument>
                     </Assign.To>
                     <Assign.Value>
-                      <InArgument x:TypeArguments="x:Int32">50</InArgument>
+                      <InArgument x:TypeArguments="x:Int32">[Cint(in_Config("BinderAgent_iterations"))]</InArgument>
                     </Assign.Value>
                   </Assign>
                   <ui:Activate DelayBefore="{x:Null}" DelayMS="{x:Null}" sap:VirtualizedContainerService.HintSize="449.6,118.4" sap2010:WorkflowViewState.IdRef="Activate_1">
